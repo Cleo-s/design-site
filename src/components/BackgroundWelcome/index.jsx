@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react';
-import BackgroundImage from '../public/background-welcome.jpg';
+import BackgroundImage from '../assets/background-welcome.jpg';
 
 import './backgroundWelcome.css';
 
 function BackgroundWelcome() {
-    useEffect(() => {
-        console.log({ BackgroundImage });
-    }, [])
 
     return (
         <div>
