@@ -1,18 +1,17 @@
 import React from 'react';
-import Header from '../../components/Header/index';
+
 import Sidebar from '../../components/Sidebar/index';
-// import SidebarIcon from '../../components/Sidebar/SidebarIcon/index';
-import BackgroundWelcome from '../../components/BackgroundWelcome/index';
+import Header from '../../components/Header/index';
 
 import './home.css'
+import SidebarIcon from '../../components/Sidebar/SidebarIcon/index';
 
 function HomePage() {
     return (
-        <>
-            <Header />
-            {/* <Sidebar/> */}
-            <BackgroundWelcome/>
-        </>
+        <div className='background-div'>
+            <Header/>
+            <Sidebar icon={<SidebarIcon/>}/>
+        </div>
     )
 }
 

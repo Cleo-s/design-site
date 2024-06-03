@@ -8,4 +8,7 @@
     height: 4rem;
 
     background-color: transparent;
+
+    position: relative;
+    z-index: 2;
 }

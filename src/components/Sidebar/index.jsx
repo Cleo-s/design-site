@@ -2,16 +2,13 @@ import React from 'react';
 
 import './sidebar.css';
 
-function Sidebar(icon) {
+function Sidebar({icon}) {
     return (
-        <div className="sidebar-div" icon={icon}>
-        <header className="sidebar-header"/>
-        <nav className="sidebar-nav">
-            <button/>
-            <button/>
-            <button/>
-        </nav>
-      </div>
+        <div className="sidebar-div">
+            {icon}
+            <nav className="sidebar-nav">
+            </nav>
+        </div>
     )
 }
 
